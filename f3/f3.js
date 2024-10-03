@@ -4,6 +4,13 @@ const students = require('../students.json');
  (Ha jól van feltöltve a lista a false értékek száma és a null-ok száma megegyezik.
   Ha nem akkor írja ki az eltérést) */
 const f3 = () => {
-    //TODO
+  let diff = [];
+  students.forEach((item)=>{
+      if ((item.freeDormitory && item.dormitoryPrice !== null) || (!item.freeDormitory && item.dormitoryPrice === null) ){
+          diff.push(diff)
+      }
+  })
+  return diff.length;
+
 }
 module.exports = f3;

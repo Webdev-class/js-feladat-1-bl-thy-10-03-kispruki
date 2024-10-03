@@ -1,4 +1,5 @@
 
+const f1 = require('./f1');
 const students_f1_a = [
   {
     firstName: 'László',
@@ -74,103 +75,103 @@ const students_f1_a = [
   }
 ]
 const students_f1_b = [
-    {
-      firstName: 'János',
-      middleName: 'Péter',
-      lastName: 'Kovács',
-      age: 21,
-      studentId: 'S123456',
-      freeDormitory: true,
-      dormitoryPrice: null,
-      dormitoryFloor: 1,
-      dormitoryRoom: 22,
-      club: 'Sakk Klub'
-    },
-    {
-      firstName: 'Boglárka',
-      middleName: 'Kata',
-      lastName: 'Szabó',
-      age: 20,
-      studentId: 'S123459',
-      freeDormitory: false,
-      dormitoryPrice: 45000,
-      dormitoryFloor: 1,
-      dormitoryRoom: 12,
-      club: 'Színjátszó Kör'
-    },
-    {
-      firstName: 'Dóra',
-      middleName: 'Lili',
-      lastName: 'Kis',
-      age: 18,
-      studentId: 'S123461',
-      freeDormitory: false,
-      dormitoryPrice: 48000,
-      dormitoryFloor: 1,
-      dormitoryRoom: 7,
-      club: 'Kézműves Kör'
-    },
-    {
-      firstName: 'Gergő',
-      middleName: null,
-      lastName: 'Horváth',
-      age: 22,
-      studentId: 'S123464',
-      freeDormitory: true,
-      dormitoryPrice: null,
-      dormitoryFloor: 1,
-      dormitoryRoom: 45,
-      club: 'Futball Klub'
-    },
-    {
-      firstName: 'Eszter',
-      middleName: 'Katalin',
-      lastName: 'Papp',
-      age: 20,
-      studentId: 'S123467',
-      freeDormitory: false,
-      dormitoryPrice: 49000,
-      dormitoryFloor: 1,
-      dormitoryRoom: 32,
-      club: 'Olvasókör'
-    },
-    {
-      firstName: 'Zsolt',
-      middleName: 'Pál',
-      lastName: 'Németh',
-      age: 23,
-      studentId: 'S123470',
-      freeDormitory: true,
-      dormitoryPrice: null,
-      dormitoryFloor: 1,
-      dormitoryRoom: 9,
-      club: 'Kertész Klub'
-    },
-    {
-      firstName: 'Erik',
-      middleName: 'János',
-      lastName: 'Takács',
-      age: 20,
-      studentId: 'S123472',
-      freeDormitory: true,
-      dormitoryPrice: null,
-      dormitoryFloor: 1,
-      dormitoryRoom: 44,
-      club: 'Matek Kör'
-    },
-    {
-      firstName: 'Judit',
-      middleName: 'Ilona',
-      lastName: 'Veres',
-      age: 22,
-      studentId: 'S123475',
-      freeDormitory: false,
-      dormitoryPrice: 48000,
-      dormitoryFloor: 1,
-      dormitoryRoom: 14,
-      club: 'Filmklub'
-    }
-  ]
+  {
+    firstName: 'János',
+    middleName: 'Péter',
+    lastName: 'Kovács',
+    age: 21,
+    studentId: 'S123456',
+    freeDormitory: true,
+    dormitoryPrice: null,
+    dormitoryFloor: 1,
+    dormitoryRoom: 22,
+    club: 'Sakk Klub'
+  },
+  {
+    firstName: 'Boglárka',
+    middleName: 'Kata',
+    lastName: 'Szabó',
+    age: 20,
+    studentId: 'S123459',
+    freeDormitory: false,
+    dormitoryPrice: 45000,
+    dormitoryFloor: 1,
+    dormitoryRoom: 12,
+    club: 'Színjátszó Kör'
+  },
+  {
+    firstName: 'Dóra',
+    middleName: 'Lili',
+    lastName: 'Kis',
+    age: 18,
+    studentId: 'S123461',
+    freeDormitory: false,
+    dormitoryPrice: 48000,
+    dormitoryFloor: 1,
+    dormitoryRoom: 7,
+    club: 'Kézműves Kör'
+  },
+  {
+    firstName: 'Gergő',
+    middleName: null,
+    lastName: 'Horváth',
+    age: 22,
+    studentId: 'S123464',
+    freeDormitory: true,
+    dormitoryPrice: null,
+    dormitoryFloor: 1,
+    dormitoryRoom: 45,
+    club: 'Futball Klub'
+  },
+  {
+    firstName: 'Eszter',
+    middleName: 'Katalin',
+    lastName: 'Papp',
+    age: 20,
+    studentId: 'S123467',
+    freeDormitory: false,
+    dormitoryPrice: 49000,
+    dormitoryFloor: 1,
+    dormitoryRoom: 32,
+    club: 'Olvasókör'
+  },
+  {
+    firstName: 'Zsolt',
+    middleName: 'Pál',
+    lastName: 'Németh',
+    age: 23,
+    studentId: 'S123470',
+    freeDormitory: true,
+    dormitoryPrice: null,
+    dormitoryFloor: 1,
+    dormitoryRoom: 9,
+    club: 'Kertész Klub'
+  },
+  {
+    firstName: 'Erik',
+    middleName: 'János',
+    lastName: 'Takács',
+    age: 20,
+    studentId: 'S123472',
+    freeDormitory: true,
+    dormitoryPrice: null,
+    dormitoryFloor: 1,
+    dormitoryRoom: 44,
+    club: 'Matek Kör'
+  },
+  {
+    firstName: 'Judit',
+    middleName: 'Ilona',
+    lastName: 'Veres',
+    age: 22,
+    studentId: 'S123475',
+    freeDormitory: false,
+    dormitoryPrice: 48000,
+    dormitoryFloor: 1,
+    dormitoryRoom: 14,
+    club: 'Filmklub'
+  }
+]
 const students_f1_c = [
   {
     firstName: 'Emma',
@@ -246,7 +247,7 @@ const students_f1_c = [
   }
 ]
 
-const f1 = require('./f1');
+
 
 test('F1_a : get people on the ground floor', () => {
   expect(f1(0)).toEqual(students_f1_a);
